@@ -1,12 +1,8 @@
 ## Ábaco Online
 
-<center>
-<div style="width:100px;">
-
-![ícone do app](https://cdn-icons-png.flaticon.com/512/841/841540.png)
-
-</div>
-</center>
+<p align="center">
+  <img src="https://cdn-icons-png.flaticon.com/512/841/841540.png" alt="ícone do app" width="300"/>
+</p>
 
 Este projeto é um ábaco interativo desenvolvido em HTML, CSS e JavaScript puro. O objetivo é fornecer uma ferramenta visual e interativa para aprender sobre o sistema decimal e realizar operações matemáticas básicas.
 

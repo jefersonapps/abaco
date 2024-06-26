@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --background: #304B5F;
+    --yellow: #f8cb02;
+    --sticks: #fff;
+    --blue: #2361bd;
+    --white: #e0e0e0;
+    --red: #df5959;
+    --green: rgb(96, 221, 173);
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: var(--background);
+    width: 100vw;
+}
+.abaco {
+    display: flex;
+    min-height: 100%;
+}
+
+
+.base {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--sticks);
+    width: 100%;
+    top: 548px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px 20px;
+    gap: 10px;
+}
+.base h1 {
+    width: 100%;
+    font-weight: 800;
+    font-size: larger;
+    text-align: center;
+    color: var(--background);
+}
+.base img {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border: 3px solid var(--background);
+    border-radius: 50%;
+    transition: all ease 0.2s;
+}
+
+.base img:hover {
+    transform: scale(1.1);
+}
+
+#blank{
+    background: #ffffff00;
+    display: flex;
+    padding: 12px 17px;
+    margin-bottom: 8px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 6px;
+}
+
+/*Primeiro*/
+
+.wrapper {
+    position: relative;
+    background-color: var(--sticks);
+    -webkit-box-shadow:inset 0px 0px 0px 43px var(--background);
+    -moz-box-shadow:inset 0px 0px 0px 43px var(--background);
+    box-shadow:inset 0px 0px 0px 43px var(--background);
+    padding: 25px;
+    max-width: 90px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper .item {
+    background: var(--yellow);
+    display: flex;
+    padding: 12px 25px;
+    margin-bottom: 8px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+/*Segundo*/
+
+.wrapper2 {
+    position: relative;
+    background-color: var(--sticks);
+    -webkit-box-shadow:inset 0px 0px 0px 43px var(--background);
+    -moz-box-shadow:inset 0px 0px 0px 43px var(--background);
+    box-shadow:inset 0px 0px 0px 43px var(--background);
+    padding: 25px;
+    max-width: 90px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.wrapper2 .item {
+    background: var(--blue);
+    display: flex;
+    padding: 12px 25px;
+    margin-bottom: 8px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/*Terceiro*/
+
+.wrapper3 {
+    position: relative;
+    background-color: var(--sticks);
+    -webkit-box-shadow:inset 0px 0px 0px 43px var(--background);
+    -moz-box-shadow:inset 0px 0px 0px 43px var(--background);
+    box-shadow:inset 0px 0px 0px 43px var(--background);
+    padding: 25px;
+    max-width: 90px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.wrapper3 .item {
+    background: var(--white);
+    display: flex;
+    padding: 12px 25px;
+    margin-bottom: 8px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/*Quarto*/
+
+.wrapper4 {
+    position: relative;
+    background-color: var(--sticks);
+    -webkit-box-shadow:inset 0px 0px 0px 43px var(--background);
+    -moz-box-shadow:inset 0px 0px 0px 43px var(--background);
+    box-shadow:inset 0px 0px 0px 43px var(--background);
+    padding: 25px;
+    max-width: 90px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.wrapper4 .item {
+    background: var(--red);
+    display: flex;
+    padding: 12px 25px;
+    margin-bottom: 8px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/*Quinto*/
+
+.wrapper5 {
+    position: relative;
+    background-color: var(--sticks);
+    -webkit-box-shadow:inset 0px 0px 0px 43px var(--background);
+    -moz-box-shadow:inset 0px 0px 0px 43px var(--background);
+    box-shadow:inset 0px 0px 0px 43px var(--background);
+    padding: 25px;
+    max-width: 90px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.wrapper5 .item {
+    background: var(--green);
+    display: flex;
+    padding: 12px 25px;
+    margin-bottom: 8px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/*Sexto*/
+
+.wrapper6 {
+    position: relative;
+    background-color: var(--sticks);
+    -webkit-box-shadow:inset 0px 0px 0px 43px var(--background);
+    -moz-box-shadow:inset 0px 0px 0px 43px var(--background);
+    box-shadow:inset 0px 0px 0px 43px var(--background);
+    padding: 25px;
+    max-width: 90px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.wrapper6 .item {
+    background: var(--yellow);
+    display: flex;
+    padding: 12px 25px;
+    margin-bottom: 8px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/*Sétimo*/
+
+.wrapper7 {
+    position: relative;
+    background-color: var(--sticks);
+    -webkit-box-shadow:inset 0px 0px 0px 43px var(--background);
+    -moz-box-shadow:inset 0px 0px 0px 43px var(--background);
+    box-shadow:inset 0px 0px 0px 43px var(--background);
+    padding: 25px;
+    max-width: 90px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.wrapper7 .item {
+    background: var(--blue);
+    display: flex;
+    padding: 12px 25px;
+    margin-bottom: 8px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/*Oitavo*/
+
+.wrapper8 {
+    position: relative;
+    background-color: var(--sticks);
+    -webkit-box-shadow:inset 0px 0px 0px 43px var(--background);
+    -moz-box-shadow:inset 0px 0px 0px 43px var(--background);
+    box-shadow:inset 0px 0px 0px 43px var(--background);
+    padding: 25px;
+    max-width: 90px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.wrapper8 .item {
+    background: var(--white);
+    display: flex;
+    padding: 12px 25px;
+    margin-bottom: 8px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/*Nono*/
+
+.wrapper9 {
+    position: relative;
+    background-color: var(--sticks);
+    -webkit-box-shadow:inset 0px 0px 0px 43px var(--background);
+    -moz-box-shadow:inset 0px 0px 0px 43px var(--background);
+    box-shadow:inset 0px 0px 0px 43px var(--background);
+    padding: 25px;
+    max-width: 90px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.wrapper9 .item {
+    background: var(--red);
+    display: flex;
+    padding: 12px 25px;
+    margin-bottom: 8px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/*Décimo*/
+
+.wrapper10 {
+    position: relative;
+    background-color: var(--sticks);
+    -webkit-box-shadow:inset 0px 0px 0px 43px var(--background);
+    -moz-box-shadow:inset 0px 0px 0px 43px var(--background);
+    box-shadow:inset 0px 0px 0px 43px var(--background);
+    padding: 25px;
+    max-width: 90px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.wrapper10 .item {
+    background: var(--green);
+    display: flex;
+    padding: 12px 25px;
+    margin-bottom: 8px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+@media (max-width: 900px)
+{
+  .wrapper10, .wrapper10 .item, 
+  .wrapper9, .wrapper9 .item , 
+  .wrapper8, .wrapper8 .item,
+  .wrapper7, .wrapper7 .item,
+  .wrapper6, .wrapper6 .item{
+    display: none;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+    max-height: 100vh;
+  }
+  .wrapper,  
+  .wrapper2,  
+  .wrapper3, 
+  .wrapper4, 
+  .wrapper5 {
+    background-color: var(--background);
+    border: solid 2px var(--sticks);
+    border-radius: 1em 1em 0em 0em;border-radius: 1em 1em 0em 0em;
+    -webkit-box-shadow:none;
+    -moz-box-shadow:none;
+    box-shadow: none;
+    max-width: 18vw;
+  }
+
+  .base {
+    width: 90vw;
+    border-radius: 0em 0em 1em 1em;
+  }
+}
